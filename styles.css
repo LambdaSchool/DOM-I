@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.digit {
+  display: inline-block;
+  font-size: 80px;
+}
+
+.redDigit {
+  color: red;
+}
