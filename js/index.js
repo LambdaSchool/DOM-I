@@ -38,5 +38,54 @@ const siteContent = {
 };
 
 // Example: Update the img src for the logo
+// let cta = document.getElementById('cta-img')
+// console.log(cta)
+// cta.setAttribute('src', siteContent.cta['img-src']);
+let cta = document.getElementById('cta-img')
+console.log(cta)
+cta.setAttribute('src', siteContent.cta['img-src']);
+
+// h1
+const h1 = document.querySelector('h1')
+//console.log(h1);
+h1.textContent = sitContent.cta.h1
+//console.log(h1);
+
+const ctaButton = document = document.querySelector('button');
+//console.log(ctaButton);
+ctaButton.textContent = siteContent.cta.button;
+/*
 let logo = document.getElementById("logo-img");
-logo.setAttribute('src', siteContent["nav"]["img-src"])
+logo.setAttribute("src", siteContent["nav"]["img-src"]);
+const section = document.getElementById("cta-img");
+section.setAttribute("src", siteContent["cta"]["img-src"]);
+const middle = document.getElementById("middle-img");
+section.setAttribute("src", siteContent["main-content"]["middle-img-src"]);
+const mySelection = document.querySelector("header#header.nav");
+console.log(mySelection);
+const group = document.querySelector("p");
+const navigation = document.querySelector("nav#header");
+// const header = document.querySelector("header#header");
+// const logoTitle = document.querySelector("#logo-img.logo");
+// nav.appendChild(phone);
+
+*/
+
+//contact section
+
+// <h4>
+const contactSectionH4 = document.querySelector('.contact h4');
+// console.log(contactSection);
+contactSectionH4.textContent = siteContent.contact['contact-h4']
+
+//<p> Address, Ph, email
+const contactSectionP = document.querySelectorAll('.contact p')
+console.log(contactSectionP);
+contactSectionP[0].textContent = sitContent.contact.address;
+contactSection[1].textContent = siteContent.contact.phone;
+contactSectionP[2].textContent = siteContent.contact.email;
+
+
+
+
+
